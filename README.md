@@ -1,2 +1,2 @@
 # Programm 
-tescht
+tescht sprengsts euch weg ihr scheis össilanden
