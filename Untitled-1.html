@@ -11,10 +11,7 @@
         h1 {
             color: rgb(255,102,178);
             text-align: center;
-            .element:hover{
-                box-shadow: 12px 12px 12px rgba(2, 3, 1, 0.1),
-                -10px -10px -10px white;
-            }
+            transition: color 0.3s ease;
             .barrio-regular {
                 font-family: "Barrio", serif;
                 font-weight: 400;
@@ -37,11 +34,25 @@
             justify-content: center;
             margin-top: 20px;
         }
+        .textfield-container input {
+            width: 60px; 
+            padding: 10px;
+            font-size: 16px;
+        }
+        h1:hover {
+            color: rgb(0,0,0);
+        }
         </style> 
-    <h1>Tescht</h1>
-    <h2>tescht</h2>
 </head>
     <body>
+        <div class="object-container">
+            <object>
+                <h1>Sprengsts euch weg ihr scheiß Össilanden</h1>
+            </object>
+        <h2>Nie wieder Österreich Urlaub</h2>
+        <div class="textfield-container">
+            <input type="text" placeholder="1-10">
+        </div>
     </body>
     </head>
 </html>
